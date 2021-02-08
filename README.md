@@ -1,7 +1,10 @@
 # PolyBool
-An optimised version of EgoMoose's PolyBool port (https://github.com/EgoMoose/PolyBool-Lua)
+Provides boolean operations (union, intersection, difference, xor) for 2D polygons.
 
-Provides boolean operations (union, intersection, difference, xor) for 2D polygons, with graceful handling of edge cases.
+This is an optimised version of EgoMoose's PolyBool port (https://github.com/EgoMoose/PolyBool-Lua).
 
-This is a Lua port of this repository (the public API is identical):
-https://github.com/velipso/polybooljs
+The original PolyBool repo can be found here: https://github.com/velipso/polybooljs
+
+This library was initially a small undertaking for personal use, but I'm open sourcing it since other people may find it
+valuable. While I might drop in to fix a few bugs or tweak a couple things, I don't make guarantees about maintenance or
+whether this is bug-free - use at your own risk.
